@@ -45,13 +45,13 @@ const toggleMobileMenu = () => {
         <a href="#" class="block">
           <img 
             v-if="isScrolled" 
-            src="./../assets/logo.jpeg" 
+            src="./../assets/logo.png" 
             alt="Logo colorida" 
             class="h-16 max-h-20 object-contain transition-all duration-300"
           />
           <img 
             v-else 
-            src="./../assets/logo2.jpeg" 
+            src="./../assets/logo_escura.png" 
             alt="Logo branca" 
             class="h-16 max-h-20 object-contain transition-all duration-300"
           />

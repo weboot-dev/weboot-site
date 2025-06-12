@@ -39,7 +39,7 @@ const subscribe = () => {
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
         <div class="lg:col-span-2">
           <a href="#" class="text-xl font-bold text-white mb-4 inline-block">
-            <img src="./../assets/logo2.jpeg" class="h-16 max-h-20">
+            <img src="./../assets/logo_escura.png" class="h-16 max-h-20">
           </a>
           <p class="text-gray-400 mb-6 max-w-md">
             Criamos soluções digitais de alto impacto para transformar seu negócio. Nossa expertise em desenvolvimento web e design traz resultados reais para sua presença digital.
