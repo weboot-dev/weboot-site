@@ -39,6 +39,7 @@ const handleSubmit = () => {
     };
   }, 1500);
 };
+
 </script>
 
 <template>
@@ -156,7 +157,7 @@ const handleSubmit = () => {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium mb-1">Telefone</h4>
-                  <p>(11) 98765-4321</p>
+                  <p>(86) 9.9849.0423</p>
                 </div>
               </div>
               
@@ -168,7 +169,7 @@ const handleSubmit = () => {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium mb-1">Email</h4>
-                  <p>contato@digidev.com.br</p>
+                  <p>contatos@weboot.com.br</p>
                 </div>
               </div>
               
@@ -181,7 +182,7 @@ const handleSubmit = () => {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg font-medium mb-1">Endereço</h4>
-                  <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                  <p>Rua Des. Caio Oliveira, 8115 - Teresina/PI</p>
                 </div>
               </div>
             </div>

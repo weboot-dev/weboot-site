@@ -23,27 +23,27 @@ const technologies = ref([
     logo: 'https://hiilite.com/wp-content/uploads/2019/03/app-logo-woocommerce.png',
     category: 'E-commerce'
   },
-  {
-    id: 4,
-    name: 'Vue.js',
-    description: 'Framework JavaScript progressivo para construção de interfaces de usuário dinâmicas e reativas.',
-    logo: 'https://vuejs.org/images/logo.png',
-    category: 'Frontend'
-  },
-  {
-    id: 5,
-    name: 'Tailwind CSS',
-    description: 'Framework CSS utilitário que permite criar designs personalizados com rapidez e consistência.',
-    logo: 'https://velog.velcdn.com/images/diso592/post/8c07ebac-2637-48b8-ae55-41915e2e30bf/image.png',
-    category: 'CSS'
-  },
-  {
-    id: 6,
-    name: 'Spring Boot',
-    description: 'Framework Java para desenvolvimento de APIs robustas e de alto desempenho para aplicações web.',
-    logo: 'https://spring.io/img/spring.svg',
-    category: 'Backend'
-  }
+  // {
+  //   id: 4,
+  //   name: 'Vue.js',
+  //   description: 'Framework JavaScript progressivo para construção de interfaces de usuário dinâmicas e reativas.',
+  //   logo: 'https://vuejs.org/images/logo.png',
+  //   category: 'Frontend'
+  // },
+  // {
+  //   id: 5,
+  //   name: 'Tailwind CSS',
+  //   description: 'Framework CSS utilitário que permite criar designs personalizados com rapidez e consistência.',
+  //   logo: 'https://velog.velcdn.com/images/diso592/post/8c07ebac-2637-48b8-ae55-41915e2e30bf/image.png',
+  //   category: 'CSS'
+  // },
+  // {
+  //   id: 6,
+  //   name: 'Spring Boot',
+  //   description: 'Framework Java para desenvolvimento de APIs robustas e de alto desempenho para aplicações web.',
+  //   logo: 'https://spring.io/img/spring.svg',
+  //   category: 'Backend'
+    // }
 ]);
 </script>
 
