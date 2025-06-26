@@ -16,8 +16,8 @@ const projects = ref<Project[]>([
     id: 1,
     title: 'CREA-PI',
     category: 'Site Institucional',
-    image: 'src/assets/imgs/crea.png',
-    thumbnail: 'src/assets/imgs/crea.png',
+    image: '/imgs/crea.png',
+    thumbnail: '/imgs/crea.png',
     description: 'Site institucional do Conselho Regional de Engenharia e Agronomia do Piauí – Crea-PI.',
     url: 'https://crea-pi.org.br/'
   },
@@ -25,8 +25,8 @@ const projects = ref<Project[]>([
     id: 2,
     title: 'CREA-PI - Transparência',
     category: 'Site Institucional',
-    image: 'src/assets/imgs/crea-transparencia.png',
-    thumbnail: 'src/assets/imgs/crea-transparencia.png',
+    image: '/imgs/crea-transparencia.png',
+    thumbnail: '/imgs/crea-transparencia.png',
     description: 'Site da transparência do Conselho Regional de Engenharia e Agronomia do Piauí – Crea-PI.',
     url: 'https://transparencia.crea-pi.org.br/'
   },
@@ -34,8 +34,8 @@ const projects = ref<Project[]>([
     id: 3,
     title: 'Rádio Expedição',
     category: 'Site Institucional',
-    image: 'src/assets/imgs/radioexpedicao.png',
-    thumbnail: 'src/assets/imgs/radioexpedicao.png',
+    image: '/imgs/radioexpedicao.png',
+    thumbnail: '/imgs/radioexpedicao.png',
     description: 'Site de atividades de radioamador ou grupos de radioamadores que mobilizam-se para instalação de estações.',
     url: 'https://www.radioexpedicao.com/expedicao/'
   },
