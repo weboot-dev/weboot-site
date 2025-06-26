@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import emailjs from '@emailjs/browser';
 
 const formData = ref({
   name: '',
@@ -21,23 +22,43 @@ const services = [
   { id: 'other', label: 'Outro' },
 ];
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
   isSubmitting.value = true;
-  
-  // Simulate form submission
-  setTimeout(() => {
+  formError.value = false;
+  formSubmitted.value = false;
+
+  try {
+    const response = await emailjs.send(
+      'service_evo9c5v', // substitua pelo seu SERVICE ID
+      'template_f99ih5f', // substitua pelo seu TEMPLATE ID
+      {
+        name: formData.value.name,
+        email: formData.value.email,
+        phone: formData.value.phone,
+        service: formData.value.service,
+        message: formData.value.message,
+      },
+      'Kd3Fhpe4mD29Uf-HO' // substitua pela sua PUBLIC KEY
+    );
+
+    if (response.status === 200) {
+      formSubmitted.value = true;
+      formData.value = {
+        name: '',
+        email: '',
+        phone: '',
+        service: '',
+        message: '',
+      };
+    } else {
+      formError.value = true;
+    }
+  } catch (error) {
+    console.error('Erro ao enviar email:', error);
+    formError.value = true;
+  } finally {
     isSubmitting.value = false;
-    formSubmitted.value = true;
-    
-    // Reset form after submission
-    formData.value = {
-      name: '',
-      email: '',
-      phone: '',
-      service: '',
-      message: '',
-    };
-  }, 1500);
+  }
 };
 
 </script>

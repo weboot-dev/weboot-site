@@ -6,7 +6,7 @@ const technologies = ref([
     id: 1,
     name: 'WordPress',
     description: 'Criação de sites com o CMS mais popular do mundo, oferecendo flexibilidade e facilidade de gestão.',
-    logo: 'https://static-00.iconduck.com/assets.00/wordpress-icon-2048x2048-a17bib4w.png',
+    logo: 'https://cdn.iconscout.com/icon/free/png-256/free-wordpress-18-432558.png?f=webp',
     category: 'CMS'
   },
   {
