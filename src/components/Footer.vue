@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue';
 
 const currentYear = new Date().getFullYear();
 
@@ -24,13 +23,6 @@ const links = {
   ],
 };
 
-const email = ref('');
-
-const subscribe = () => {
-  // Handle subscription logic here
-  email.value = '';
-  alert('Inscrição realizada com sucesso!');
-};
 </script>
 
 <template>
