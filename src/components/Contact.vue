@@ -29,8 +29,8 @@ const handleSubmit = async () => {
 
   try {
     const response = await emailjs.send(
-      'service_evo9c5v', // substitua pelo seu SERVICE ID
-      'template_f99ih5f', // substitua pelo seu TEMPLATE ID
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, // substitua pelo seu SERVICE ID
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // substitua pelo seu TEMPLATE ID
       {
         name: formData.value.name,
         email: formData.value.email,
@@ -38,7 +38,7 @@ const handleSubmit = async () => {
         service: formData.value.service,
         message: formData.value.message,
       },
-      'Kd3Fhpe4mD29Uf-HO' // substitua pela sua PUBLIC KEY
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     );
 
     if (response.status === 200) {
